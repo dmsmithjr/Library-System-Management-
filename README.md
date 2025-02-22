@@ -126,6 +126,5 @@ CREATE TABLE return_status
 **Update:** Updated records in the `employees` table.
 
 **Delete:** Removed records from the `members` table as needed.
-
 ---
 
