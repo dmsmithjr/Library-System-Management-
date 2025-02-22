@@ -14,3 +14,4 @@ This project demonstrates the implementation of a Library Management System usin
 3. CTAS (Create Table As Select): Utilize CTAS to create new tables based on query results.
 
 4. Advanced SQL Queries: Develop complex queries to analyze and retrieve specific data.
+![library](https://github.com/user-attachments/assets/1440c86b-909c-4776-b59a-95d16cfa103e)
