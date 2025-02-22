@@ -117,9 +117,7 @@ CREATE TABLE return_status
 
 
 
-## CRUD Operations
-
-This section demonstrates the Create, Read, Update, and Delete (CRUD) operations performed on the Library Management System database.
+### CRUD Operations
 
 **Create:** Inserted sample records into the `books` table.
 
@@ -131,20 +129,13 @@ This section demonstrates the Create, Read, Update, and Delete (CRUD) operations
 
 ---
 
-### Task 1. Create a New Book Record
-
-**Details:** ISBN: 978-1-60129-456-2, Title: To Kill a Mockingbird, Category: Classic, Rental Price: 6.00, Status: yes, Author: Harper Lee, Publisher: J.B. Lippincott & Co.
+### Task 1. Create a New Book Record -- ISBN: 978-1-60129-456-2, Title: To Kill a Mockingbird, Category: Classic, Rental Price: 6.00, Status: yes, Author: Harper Lee, Publisher: J.B. Lippincott & Co.
 
 ```sql
 INSERT INTO books (isbn, book_title, category, rental_price, status, author, publisher)
 VALUES('978-1-60129-456-2', 'To Kill a Mockingbird', 'Classic', 6.00, 'yes', 'Harper Lee', 'J.B. Lippincott & Co.');
-
 SELECT * FROM books;
 
-
-## CRUD Operations and Advanced Queries
-
-This section demonstrates various database operations, including Create, Read, Update, and Delete (CRUD) operations, along with more complex queries on the Library Management System database.
 
 ---
 
