@@ -115,3 +115,46 @@ CREATE TABLE return_status
             FOREIGN KEY (return_book_isbn) REFERENCES books(isbn)
 );
 
+
+
+## CRUD Operations
+
+This section demonstrates the Create, Read, Update, and Delete (CRUD) operations performed on the Library Management System database.
+
+**Create:** Inserted sample records into the `books` table.
+
+**Read:** Retrieved and displayed data from various tables.
+
+**Update:** Updated records in the `employees` table.
+
+**Delete:** Removed records from the `members` table as needed.
+
+---
+
+### Task 1. Create a New Book Record
+
+**Details:** ISBN: 978-1-60129-456-2, Title: To Kill a Mockingbird, Category: Classic, Rental Price: 6.00, Status: yes, Author: Harper Lee, Publisher: J.B. Lippincott & Co.
+
+```sql
+INSERT INTO books (isbn, book_title, category, rental_price, status, author, publisher)
+VALUES('978-1-60129-456-2', 'To Kill a Mockingbird', 'Classic', 6.00, 'yes', 'Harper Lee', 'J.B. Lippincott & Co.');
+
+SELECT * FROM books;
+
+
+## CRUD Operations and Advanced Queries
+
+This section demonstrates various database operations, including Create, Read, Update, and Delete (CRUD) operations, along with more complex queries on the Library Management System database.
+
+---
+
+### Task 2: Update an Existing Member's Address
+
+**Details:** Update the address of the member with `member_id = 'C103'` to '125 Oak St'.
+
+```sql
+UPDATE members
+SET member_address = '125 Oak St'
+WHERE member_id = 'C103';
+
+
