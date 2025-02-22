@@ -25,10 +25,9 @@ This project demonstrates the implementation of a Library Management System usin
 
 ## Project Structure
 
-![library_erd](https://github.com/user-attachments/assets/e5573066-2bed-428e-9c3c-05d9fa217c47)
-
-
 1. **Database Setup**
+
+![library_erd](https://github.com/user-attachments/assets/e5573066-2bed-428e-9c3c-05d9fa217c47)
 
 - **Database Creation:** Created a database named `library_db`.
 
