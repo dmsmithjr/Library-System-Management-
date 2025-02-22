@@ -117,7 +117,7 @@ CREATE TABLE return_status
 
 
 
-### CRUD Operations
+2. **CRUD Operations**
 
 **Create:** Inserted sample records into the `books` table.
 
